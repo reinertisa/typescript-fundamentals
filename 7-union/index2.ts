@@ -1,8 +1,8 @@
 // union type pitfall
 
-type Id = number | string;
+type IdTwo = number | string;
 
-function swapIdType(id: Id): Id {
+function swapIdType(id: IdTwo): IdTwo {
     // can only use props and methods common to
     // both number and string types
     // parseInd(id) --> not allowed

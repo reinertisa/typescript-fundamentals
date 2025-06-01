@@ -29,5 +29,5 @@ function formatGreeting(name: string, greeting: string) {
     return `${greeting} ${name}`;
 }
 
-const result = formatGreeting('Inigo', 'Hello');
-console.log(result);
+const rez = formatGreeting('Inigo', 'Hello');
+console.log(rez);

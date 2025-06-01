@@ -19,7 +19,7 @@ console.log(colorOne, colorTwo);
 // example 2 - object literal
 type User = {
     name: string
-    score: string
+    score: number
 }
 
 const userOne: User = {
@@ -33,4 +33,4 @@ function formatUser(user: User): void {
 }
 
 formatUser(userOne);
-formatUse({name: 'Zehra', score: 88});
+formatUser({name: 'Zehra', score: 88});

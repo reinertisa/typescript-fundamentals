@@ -15,8 +15,8 @@ fruits.push('peaches')
 
 const fruit = fruits[3];
 
-let things = [1, true, 'hello'];
-const t = things[0];
+let mixedThings = [1, true, 'hello'];
+const t = mixedThings[0];
 
 
 

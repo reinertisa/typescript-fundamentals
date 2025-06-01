@@ -1,10 +1,10 @@
 // any type
 
-let age: any
+let age1: any
 
-age = 20;
-console.log(age);
-age = false;
+age1 = 20;
+console.log(age1);
+age1 = false;
 console.log(age);
 
 let title

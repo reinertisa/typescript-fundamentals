@@ -1,8 +1,8 @@
 // tagged interfaces
 
-type Id = number | string;
+type IdThree = number | string;
 
-interface User {
+interface User3 {
     type: 'user'
     username: string
     email: string
@@ -16,7 +16,7 @@ interface Person {
     id: Id
 }
 
-function logDetails(value: User | Person): void {
+function logDetails(value: User3 | Person): void {
     if (value.type === 'user') {
         console.log(value.username, value.email);
     }
